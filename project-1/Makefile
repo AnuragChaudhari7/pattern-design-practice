@@ -1,7 +1,7 @@
 CXX = clang++
 CXXFLAGS = -Wall -std=c++17
 TARGET = main.out
-SRC = main.cpp
+SRC = main.cpp Account.cpp CheckingAccount.cpp SavingsAccount.cpp
 
 all: $(TARGET)
 

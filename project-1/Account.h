@@ -41,7 +41,7 @@ class Account {
 
         /*Get account details
         * N.B. too complex to be in header file (unlike one liners above)*/
-        void getAccountDetails();
+        void getAccountDetails() const;
         
 };
 
