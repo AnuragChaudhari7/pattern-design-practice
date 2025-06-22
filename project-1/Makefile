@@ -6,7 +6,7 @@ SRC = ./*.cpp
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) -Wall
 
 clean:
 	rm $(TARGET)
